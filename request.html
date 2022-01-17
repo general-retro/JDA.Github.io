@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!-- Fig. 2.15: form2.html -->
+<!-- Form using a variety of components. -->
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Requests</title>
+   </head>
+
+   <body id="req_header">
+      <h1>Request Info</h1>
+      
+
+      <form method = "post" action = "">
+
+         <input type = "hidden" name = "recipient"
+            value = "">
+         <input type = "hidden" name = "subject" 
+            value = "Feedback Form">
+         <input type = "hidden" name = "redirect" 
+            value = "main.html"> 
+
+         <p><label>Name: 
+               <input name = "name" type = "text" size = "25">
+            </label></p>
+ 
+         
+         <p><label>Question:<br>
+            <textarea name = "comments"
+               rows = "4" cols = "36">Enter questions here.</textarea>
+         </label></p>
+
+      
+         <p><label>E-mail Address: 
+            <input name = "email" type = "password"  size = "25">
+         </label></p>         
+         
+
+         
+         <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+         </p>   
+      </form>
+   </body>
+</html>
+
