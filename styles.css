@@ -1,0 +1,56 @@
+
+body {
+   	
+	text-align:center;
+	background-color:powderblue;
+}
+h1 {
+	color: blue;
+	font-size:60px; 
+}
+.MainImage{
+ 		position: relative;
+         margin: auto;
+          border: 5px dashed #f7a239;  
+
+}
+ 
+  
+.logo1 {
+  position: absolute;
+  top: 2%;  /*this is position*/
+  left: 35%;
+  width: 25%; /*this is size*/
+  height: 20%;
+
+
+  border-radius: 50%;
+  border: 1px solid #000000;
+  z-index: 2;
+  object-fit: fit;
+ 
+ 
+}
+.logo2 {
+   
+  width: 75%;
+  height: 75%;
+
+  top: 0px;
+  left: 0px;
+   
+  border: 1px solid #000000;
+  z-index: 1;
+    
+  object-fit: fit;    
+ 
+} 
+
+.Bottom{
+	background-color:#F5F5F5;
+	text-align:center;
+}
+footer{
+	background-color:#F5F5F5;
+
+ 
